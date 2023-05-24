@@ -3,11 +3,25 @@
     <head>
         <title>Under Construction</title>
         <style>
-            body, html {
+          @font-face {
+              font-family: 'Gellix-Bold';
+              src: url('fonts/Gellix-Bold.otf') format('opentype'),
+                   url('fonts/Gellix-Bold.ttf') format('truetype');
+              font-weight: bold;
+              font-style: normal;
+          }
+          @font-face {
+              font-family: 'Gellix-Regular';
+              src: url('fonts/Gellix-Regular.otf') format('opentype'),
+                   url('fonts/Gellix-Regular.ttf') format('truetype');
+              font-weight: normal;
+              font-style: normal;
+          }
+          body, html {
                 height: 100%;
                 margin: 0;
                 font-size: 36px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: 'Gellix-Regular', Arial, Helvetica, sans-serif;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -16,6 +30,9 @@
                 -moz-background-size: cover;
                 -o-background-size: cover;
                 background-size: cover;
+            }
+            h1 {
+                font-family: 'Gelix-Bold', Arial, Helvetica, sans-serif;
             }
         </style>
     </head>
@@ -34,13 +51,14 @@
               height: 150px;
           " />
             <h1 style="font-size: 50px; color: yellow;">We're building a bigger and better brand new Ozone Experience!</h1>
-            <p style="font-size: 24px; margin: 20px 0;">
+            <p style="font-size: 24px; color: darkyellow; margin: 20px 0;">
                 Coming soon, we're releasing a new platform that gives you more exciting earning opportunities, big brands that want to talk to you, and new rewards for being an Ozone Member!
             </p>
         </div>
     </div>
   </body>
 </html>
+
 
 <!--            background-color: rgba(0,0,0,0.5);
             border: 2px solid white;
